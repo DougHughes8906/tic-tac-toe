@@ -1,0 +1,45 @@
+
+html, body {
+	height: 100%;
+	margin: 0px 0px;
+}
+
+#pageContainer {
+	display: grid;
+	height: 100%;
+	grid-template-rows: 6fr 400px 7fr; 
+}
+
+.pageItem {
+	margin: auto;
+}
+
+#board {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	height: 400px;
+	width: 400px;
+}
+
+h2 {
+	margin: 0px 0px;
+	font-size: 90px;	
+	font-family: 'Handlee', cursive;	
+}
+
+.square {
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+}
+
+.midHor {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.midVer {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
