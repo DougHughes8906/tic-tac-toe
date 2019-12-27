@@ -2,6 +2,10 @@
 html, body {
 	height: 100%;
 	margin: 0px 0px;
+	font-family: 'Handlee', cursive;
+	background-image: url(https://images.unsplash.com/photo-1571607050173-323d37e16af4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+	background-size: cover;
+	color: #563bde;
 }
 
 #startScreen {
@@ -12,8 +16,39 @@ html, body {
 	left: 0;
 	top: 0;
 	background-color: white;
+	background-image: url(https://images.unsplash.com/photo-1571607050173-323d37e16af4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+	background-size: cover;
 	width: 100%;
 	height: 100%;
+}
+
+button {
+	font-family: 'Handlee', cursive;
+	font-size: 35px;
+	border-radius: 10px;
+	background-color: #f2badb;
+	border: 2px solid #4476ea;
+	color: #1486d8;
+}
+
+button:focus {
+	outline: 0;
+}
+
+button:hover {
+	background-color: #ea71b9;
+	border: 2px solid #2f66e4;
+	color: white;
+	box-shadow: 0 0 30px #4021ec;
+}
+
+h1 {
+	font-size: 100px;
+}
+
+#pageContainer > h1 {
+	font-size: 60px;
+	color: #4476ea;
 }
 
 .startItem {	
@@ -40,7 +75,7 @@ html, body {
 
 h2 {
 	margin: 0px 0px;
-	font-size: 90px;	
+	font-size: 80px;	
 	font-family: 'Handlee', cursive;	
 }
 
@@ -51,11 +86,11 @@ h2 {
 }
 
 .midHor {
-	border-left: 1px solid black;
-	border-right: 1px solid black;
+	border-left: 4px solid #353aab;
+	border-right: 4px solid #353aab;
 }
 
 .midVer {
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	border-top: 4px solid #353aab;
+	border-bottom: 4px solid #353aab;
 }
